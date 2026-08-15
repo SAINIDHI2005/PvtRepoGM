@@ -303,6 +303,7 @@ void feeder(int sel, int cnt = 1)
 
 void blancher(int sel = 0)
 {
+    // sel not used here for now (default to 0)
     if (sel == 0)
         Serial.println("Feeding Dahl to Blancher...");
 
